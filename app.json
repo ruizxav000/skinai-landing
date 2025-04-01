@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "SkinAI",
-    "slug": "skinai",
+    "name": "DermAI",
+    "slug": "dermai",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./skinai_icon.png",
+    "icon": "./dermai_icon.png",
     "splash": {
       "image": "./splash.png",
       "resizeMode": "contain",
@@ -17,15 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.skinai.app",
+      "bundleIdentifier": "com.dermai.app",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.skinai.app",
+      "package": "com.dermai.app",
       "versionCode": 1
     },
     "web": {
-      "favicon": "./skinai_icon.png"
+      "favicon": "./dermai_icon.png"
     }
   }
 }
