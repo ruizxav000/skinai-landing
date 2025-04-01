@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "SkinAI",
+    "slug": "skinai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./skinai_icon.png",
+    "splash": {
+      "image": "./splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2A2E3B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.skinai.app",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.skinai.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./skinai_icon.png"
+    }
+  }
+}
