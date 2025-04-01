@@ -3,25 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SkinAI App</title>
+  <title>SkinAI - Your AI Dermatology Assistant</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 40px; background: #f9f9f9; text-align: center; }
-    h1 { color: #333; }
-    p { max-width: 600px; margin: 0 auto 20px; }
-    a.button {
-      display: inline-block;
-      background: #4CAF50;
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fa;
+      color: #2a2e3b;
+    }
+    header {
+      background: #2a2e3b;
       color: white;
-      padding: 12px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .feature-list {
+      text-align: left;
+      margin-top: 30px;
+    }
+    .feature-list li {
+      margin-bottom: 10px;
+    }
+    .email-signup {
+      margin-top: 40px;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    input[type="email"] {
+      width: 70%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 <body>
+
+<header>
   <h1>SkinAI</h1>
-  <p>Your AI-powered assistant for identifying skin conditions, tracking progress, and finding dermatologists.</p>
-  <a class="button" href="#">Join the Waitlist</a>
+  <p>AI-powered skin condition detection, tracking, and support — right from your phone.</p>
+</header>
+
+<main>
+  <h2>Why SkinAI?</h2>
+  <ul class="feature-list">
+    <li>Instant skin condition analysis with AI</li>
+    <li>Track and compare your skin health over time</li>
+    <li>Smart reminders to recheck and follow up</li>
+    <li>Get OTC treatment suggestions and find nearby dermatologists</li>
+    <li>Chat with AI about your results and next steps</li>
+  </ul>
+
+  <div class="email-signup">
+    <h3>Join the Early Access Waitlist</h3>
+    <p>Get notified when SkinAI is available on iOS and Android.</p>
+    <form action="#" method="POST">
+      <input type="email" name="email" placeholder="you@example.com" required />
+      <button type="submit">Notify Me</button>
+    </form>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 SkinAI. All rights reserved.
+</footer>
+
 </body>
 </html>
